@@ -11,7 +11,7 @@ h1 {
     color: rgb(255, 102, 0);
 }
 
-section {
+.flexibal-containar {
     display: flex;
     margin-bottom: 150px;
 
@@ -50,4 +50,11 @@ section {
 
 .prag {
     padding-right: 50px;
+}
+
+.e-card {
+    box-shadow: rgb(1, 25, 26);
+    border: 2px solid grey;
+    margin: 50px;
+
 }
