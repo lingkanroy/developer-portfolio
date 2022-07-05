@@ -56,5 +56,17 @@ h1 {
     box-shadow: rgb(1, 25, 26);
     border: 2px solid grey;
     margin: 50px;
+    box-shadow: 0 5px 5px 0 black;
 
+}
+
+.foot {
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding: 30px;
+}
+
+.foot a {
+    text-decoration: none;
 }
