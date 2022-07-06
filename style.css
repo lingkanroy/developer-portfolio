@@ -4,16 +4,16 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .polior {
-    color: rgb(255, 102, 0);
+    color: rgb(252, 144, 72);
 }
 
 .flexibal-containar {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 
 }
 
@@ -54,10 +54,22 @@ h1 {
 
 .e-card {
     box-shadow: rgb(1, 25, 26);
-    border: 2px solid grey;
+    border-left: 5px solid blue;
     margin: 50px;
-    box-shadow: 0 5px 5px 0 black;
+    box-shadow: 10px 10px 50px gray;
+    padding: 0px 5px;
 
+}
+
+.Experience-card {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 0px;
 }
 
 .foot {
@@ -69,4 +81,5 @@ h1 {
 
 .foot a {
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
